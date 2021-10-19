@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.border {
+    border: 5px solid red;
+    background: #1bdb8b;
+    width: 1000px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.header {
+    background: aquamarine;
+}
+.header, .c, .b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.content {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.b {
+    width: 80%;
+    background: #d558c9;
+}
+.c {
+    flex-grow: 1;
+    background: darkgray;
+}
